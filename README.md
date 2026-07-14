@@ -13,8 +13,7 @@ This repository is maintained for:
 
 | No. | Projects | Description |
 | :--- | :--- | :--- |
-| 1 | ... | ... |
+| 1 | Movie-Ticket-Booking | A basic Flask web app for booking movie tickets, practicing forms, and POST routes |
 | 2 | ... | ... |
-
 
 *(More coming soon...)*

@@ -38,7 +38,7 @@ cd Movie-Ticket-Booking
 pip install -r requirements.txt
 ```
 
-Start the Flask development server:**
+**Start the Flask development server:**
 
 ```Bash
 python -m flask run

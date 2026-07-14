@@ -16,13 +16,13 @@ A simple web application built with Python and Flask that allows users to simula
 ## 📁 Project Structure
 ```text
 Movie-Ticket-Booking/
-├── app.py                # Main Flask application and route
-├── requirements.txt      # Project dependencies
+├── app.py                
+├── requirements.txt      
 └── templates/            
-    ├── layout.html       # Base template structure
-    ├── index.html        # Main booking form
-    ├── success.html      # Successful booking page
-    └── failure.html      # Error handling page
+    ├── layout.html     
+    ├── index.html       
+    ├── success.html     
+    └── failure.html      
 ```
 
 ## How to Run Locally

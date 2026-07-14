@@ -1,0 +1,18 @@
+{% extends "layout.html"%}
+
+{%block body %}
+    <h1>Movie Ticket Booking</h1>
+    <br>
+    <form action="/booking" method="post">
+        <input autocomplete="off" autofocus name="name" placeholder="Enter your name" type="text">
+        <select name="movie">
+            <option selected value="">Select a movie</option>
+            <option value="Avatar">Avatar</opotion>
+            <option value="Inception">Inception</option>
+            <option value="Interstellar">Interstellar</option>
+            <option value="The Dark Knight">The Dark Knight</option>
+        </select>
+        <button type="submit">Book Ticket</button>
+    </form>
+
+{% endblock %}

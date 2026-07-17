@@ -14,6 +14,7 @@ This repository is maintained for:
 | No. | Projects | Description |
 | :--- | :--- | :--- |
 | 1 | Movie-Ticket-Booking | A basic Flask web app for booking movie tickets, practicing forms, and POST routes |
-| 2 | ... | ... |
+| 2 | Cafe-Ordering-System | A Flask web app for managing food orders, practicing Python dictionaries, backend validation, and dynamic HTML tables |
+| 3 | ... | ... |
 
 *(More coming soon...)*

@@ -1,0 +1,15 @@
+{% extends "layout.html"%}
+
+{% block body %}
+    <h1 style="color: rgb(250, 111, 31);">Welcome to the Cafe Ordering System</h1>
+    <form action="/place_order" method="post">
+        <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+        <select name="item">
+            <option selected value="">Select your food item</option>
+            {% for item in Items %}
+                <option value="{{ item }}">{{ item }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Place Order</button>
+    </form>
+{%  endblock %}
